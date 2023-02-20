@@ -7,7 +7,7 @@
   (paper "A4")
   (layers
     (0 "F.Cu" signal)
-    (31 "B.Cu" signal)
+    (31 "B.Cu" power)
     (32 "B.Adhes" user "B.Adhesive")
     (33 "F.Adhes" user "F.Adhesive")
     (34 "B.Paste" user)
@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -162,7 +175,7 @@
 
   (footprint "NRF5340-QKAA-R7:XCVR_NRF5340-QKAA-R7" (layer "F.Cu")
     (tstamp 040ded15-fe3e-4d15-b9c9-e4f93c53d0d0)
-    (at 116.18 85.7)
+    (at 115.973 90.7)
     (property "MANUFACTURER" "Nordic Semiconductor")
     (property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm")
     (property "PARTREV" "1.0")
@@ -3299,7 +3312,7 @@
 
   (footprint "Battery:BatteryHolder_Keystone_1060_1x2032" (layer "F.Cu")
     (tstamp 6190d11c-3ac7-4a6a-a0ff-1eb8160b6e2c)
-    (at 142.41 79.220467)
+    (at 114.3 71.12)
     (descr "http://www.keyelco.com/product-pdf.cfm?p=726")
     (tags "CR2032 BR2032 BatteryHolder Battery")
     (property "Sheetfile" "athena_pcb.kicad_sch")
@@ -4558,5 +4571,13 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (segment (start 131.72 91.08) (end 131.72 91.44) (width 0.3) (layer "F.Cu") (net 1) (tstamp 2d392db7-d085-4e9e-8f97-9e36bddb5cb1))
+  (segment (start 129.54 88.9) (end 131.72 91.08) (width 0.3) (layer "F.Cu") (net 1) (tstamp 4dc4d9da-7643-4a6c-b44a-27afe7e26b30))
+  (segment (start 128.877035 88.9) (end 129.54 88.9) (width 0.3) (layer "F.Cu") (net 1) (tstamp 72a2e4c6-a367-452f-ad00-1108ab79927d))
+  (segment (start 126.39 91.387035) (end 128.877035 88.9) (width 0.3) (layer "F.Cu") (net 1) (tstamp d36f4a34-6ad4-449c-b06a-524caea44acc))
+  (segment (start 126.39 91.43) (end 126.39 91.387035) (width 0.3) (layer "F.Cu") (net 1) (tstamp df400c82-41fd-4863-a174-d49ba3165b6a))
+  (segment (start 132.3 91.32) (end 132.3 89.12) (width 0.3) (layer "F.Cu") (net 2) (tstamp 4f1916ae-829d-407f-be39-4c0680cb4463))
+  (segment (start 132.3 89.12) (end 132.08 88.9) (width 0.3) (layer "F.Cu") (net 2) (tstamp 82475116-6327-4cfe-a772-393b7af22ebb))
 
 )
