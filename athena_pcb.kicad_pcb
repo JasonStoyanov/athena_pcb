@@ -3006,7 +3006,7 @@
 
   (footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" (layer "F.Cu")
     (tstamp 4998008d-6b54-4ff2-bf44-2af8b1cc58e6)
-    (at 144.43 92.12)
+    (at 125.42 92.35)
     (descr "Through hole straight pin header, 2x03, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 1.27mm double row")
     (property "Sheetfile" "athena_pcb.kicad_sch")
@@ -3316,7 +3316,7 @@
 
   (footprint "Battery:BatteryHolder_Keystone_1060_1x2032" (layer "F.Cu")
     (tstamp 6190d11c-3ac7-4a6a-a0ff-1eb8160b6e2c)
-    (at 130.41 64.99)
+    (at 120.41 70.73)
     (descr "http://www.keyelco.com/product-pdf.cfm?p=726")
     (tags "CR2032 BR2032 BatteryHolder Battery")
     (property "Sheetfile" "athena_pcb.kicad_sch")
@@ -3814,7 +3814,7 @@
 
   (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" (layer "F.Cu")
     (tstamp 92bc106a-c5f8-46d5-a644-35478ee81732)
-    (at 138.93 97.32)
+    (at 123.43 102.38)
     (descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
     (tags "SMD SMT button")
     (property "Sheetfile" "athena_pcb.kicad_sch")
@@ -4418,7 +4418,7 @@
 
   (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Left" (layer "F.Cu")
     (tstamp ef03911c-434d-4149-bfed-f297f740a00c)
-    (at 147.235 84.26 -90)
+    (at 129.795 95.49 -90)
     (descr "http://www.ti.com/lit/an/swra117d/swra117d.pdf")
     (tags "PCB antenna")
     (property "Sheetfile" "athena_pcb.kicad_sch")
@@ -4750,7 +4750,6 @@
   (segment (start 121.25 89.74) (end 121.26 89.75) (width 0.127) (layer "F.Cu") (net 7) (tstamp 65bafa5e-865f-4530-9b0b-4a52755cface))
   (segment (start 120.39 89.74) (end 121.25 89.74) (width 0.127) (layer "F.Cu") (net 7) (tstamp bd9ce1ba-6c84-43fd-85cd-9653dec52353))
   (segment (start 119.33 89.74) (end 120.39 89.74) (width 0.127) (layer "F.Cu") (net 7) (tstamp e2335c18-f4a8-4631-ae5c-6e5290476bda))
-  (segment (start 147.27 84.23) (end 147.27 83.87) (width 0.5) (layer "F.Cu") (net 8) (tstamp 0d4537a2-9334-443b-9625-5f5fb20761c2))
   (segment (start 121.9 89.75) (end 122.8 89.75) (width 0.127) (layer "F.Cu") (net 8) (tstamp fd4cd70f-44af-4b0c-a208-34635e537e04))
   (segment (start 119.2225 83.72) (end 119.335 83.8325) (width 0.127) (layer "F.Cu") (net 15) (tstamp 192ea52c-2d16-450b-b7c6-7ed62c000612))
   (segment (start 119.2225 84.9175) (end 119.2225 83.72) (width 0.127) (layer "F.Cu") (net 15) (tstamp 5c79e41c-766f-4be9-a99d-5d15e77ab4b5))
