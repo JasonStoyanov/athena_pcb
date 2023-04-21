@@ -1,0 +1,37 @@
+### Footprint positions - created on Fri Apr 14 20:21:40 2023 ###
+### Printed by KiCad version (7.0.0)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                                   PosX       PosY       Rot  Side
+BT1       Battery_Cell     BatteryHolder_Keystone_1060_1x2032                    108.4400   -92.2600    0.0000  bottom
+C1        1uF              C_0402_1005Metric                                     117.8900   -84.6700   90.0000  top
+C2        1uF              C_0402_1005Metric                                     120.5800   -85.0900    0.0000  top
+C3        2.2nF            CAPC0603X33N                                          122.7700   -87.8700   90.0000  top
+C4        1uF              C_0402_1005Metric                                     113.6800   -85.8800   90.0000  top
+C5        1uF              C_0402_1005Metric                                     116.3600   -85.1700  180.0000  top
+C6        100nF            CAPC0603X33N                                          119.1750   -86.0700    0.0000  top
+C7        1uF              C_0402_1005Metric                                     115.5300   -86.3100  180.0000  top
+C8        100nF            CAPC0603X33N                                          111.5700   -88.4200  -90.0000  top
+C9        100nF            CAPC0603X33N                                          118.4440   -95.2100    0.0000  top
+C10       100nF            CAPC0603X33N                                          111.4400   -93.1900  180.0000  top
+C11       100nF            CAPC0603X33N                                          120.7400   -90.6300    0.0000  top
+C12       0.7pF            CAPC0603X33N                                          120.3900   -89.4200   90.0000  top
+C13       100nF            CAPC0603X33N                                          113.5300   -95.4460  -90.0000  top
+C14       100nF            CAPC0603X33N                                          121.4400   -87.8500  -90.0000  top
+C15       100nF            CAPC0603X33N                                          114.7600   -95.4460  -90.0000  top
+C16       100nF            CAPC0603X33N                                          120.7660   -86.1100    0.0000  top
+C17       N.C              CAPC0603X33N                                          122.8000   -89.4300   90.0000  top
+C18       100nF            CAPC0603X33N                                           96.5000  -101.7800   90.0000  top
+C19       100nF            CAPC0603X33N                                           96.5200  -103.3200  -90.0000  top
+D1        LED              LED_0603_1608Metric                                   103.0550   -91.4500  180.0000  top
+J2        Conn_01x04       PinSocket_1x06_P1.27mm_Vertical                       122.2500  -103.0100  -90.0000  top
+L1        10uH             INDC1608X95N                                          120.0200   -83.4400  180.0000  top
+L2        10uH             INDC1608X95N                                          114.8225   -83.8500  180.0000  top
+L3        2.2nH            IND_LQP03HQ2N2B02D                                    121.5800   -89.7500    0.0000  top
+R1        200R             R_0402_1005Metric                                     102.2900   -93.4200   90.0000  top
+SW1       SW_Push          SW_Push_1P1T_NO_CK_KMR2                                95.3600   -91.5300  180.0000  top
+U1        NRF5340-QKAA-R7  XCVR_NRF5340-QKAA-R7                                  116.1300   -90.7400    0.0000  top
+U2        BME280           Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering    98.5900  -102.4400  -90.0000  top
+Y1        32MHz            OSC_XRCGB32M000F1H19R0                                123.5400   -85.4500    0.0000  top
+Y2        32.768kHz        XTAL_CM8V-T1A-32.768KHZ-9PF-20PPM-TA-QC               109.6200   -90.2500  -90.0000  top
+## End
