@@ -1,0 +1,7 @@
+
+= Athena Project PCB
+:hardbreaks-option:
+
+
+Additional information regarding the hardware can be found in the following article:
+https://open4tech.com/how-to-create-a-ble-sensor-beacon-part-1-the-hardware/
